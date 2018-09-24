@@ -1439,6 +1439,12 @@ button.bg-light:focus {
   width: 64px;
   height: 64px; }
 
+  @font-face {
+    font-family: "Goudy Old Style";
+    src: local(GOUDOS), url("../font/goudy/GOUDOS.TTF");
+    src: url("../font/goudy/GOUDOS.TTF?#iefix") format("embedded-opentype"), url("../font/goudy/GOUDOS.TTF") format("woff2"), url("../font/goudy/GOUDOS.TTF") format("woff"), url("../font/goudy/GOUDOS.TTF") format("truetype");
+    font-weight: 200; }
+
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
